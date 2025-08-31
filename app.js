@@ -92,9 +92,9 @@ app.listen( port , () => {
     console.log("app is listening on port")
 });
 
-app.get("/" , (req,res) =>{
-  res.send("this is a home page")
-})
+// app.get("/" , (req,res) =>{
+//   res.send("this is a home page")
+// })
 
 //session and flash
 app.use(session(sessionOptions)) //sending s-id in form of cookie 
